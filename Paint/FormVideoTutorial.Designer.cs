@@ -1,6 +1,6 @@
 ﻿namespace Paint
 {
-    partial class Form1
+    partial class FormVideoTutorial
     {
         /// <summary>
         /// Variável de designer necessária.

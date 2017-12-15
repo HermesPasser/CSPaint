@@ -11,7 +11,7 @@ namespace Paint
         pen, paintBucket
     }
 
-    public partial class Form1 : Form
+    public partial class FormVideoTutorial : Form
     {
         private ToolBox toolBox = ToolBox.pen;
 
@@ -25,7 +25,7 @@ namespace Paint
         private Thread thread = null;
 
 
-        public Form1()
+        public VideoTutorialForm1()
         {
             InitializeComponent();
             saveFileDialog1.Filter = "Image files (*.gif, *.bmp, *.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.gif; *bmp; *.jpg; *.jpeg; *.jpe; *.jfif; *.png";
